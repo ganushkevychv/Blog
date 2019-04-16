@@ -32,13 +32,13 @@ body={node.excerpt}
 
 const indexQuery = graphql`
 query{
-  allMarkdownRemark{
+  allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC}) {
     edges{
       node{
         id
         frontmatter{
           title
-          date
+          date(formatString: "MMM Do YYYY")
           author
           path
         }

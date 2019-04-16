@@ -7,10 +7,12 @@ const Post = ({ title, author, path, date, body }) => {
         <Card>
             <CardBody>
                 <CardTitle>
+                    <Link to={path}>
                     {title}
+                    </Link>
                 </CardTitle>
                 <CardSubtitle>
-                    <span className="text-info">{date}</span> by
+                    <span className="text-info">{date}</span> by {''}
                     <span className="text-info">{author}</span>
                 </CardSubtitle>
                 <CardText>
