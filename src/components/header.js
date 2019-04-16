@@ -28,7 +28,8 @@ class Header extends React.Component{
     return (
       <div>
         <Navbar fixed="top" light expand="sm">
-          <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
+        <div className="container">
+        <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -43,6 +44,8 @@ class Header extends React.Component{
               </NavItem>
             </Nav>
           </Collapse>
+        </div>
+         
         </Navbar>
       </div>
     );
