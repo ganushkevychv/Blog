@@ -3,14 +3,16 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql, StaticQuery } from "gatsby"
 import Post from "../components/Post"
-
+import { Row, Col} from "reactstrap"
 
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Home page</h1>
-    <StaticQuery
+    <Row>
+      <Col md="8">
+      <StaticQuery
      query={indexQuery} 
      render={data => {
       return (
@@ -29,6 +31,12 @@ fluid={node.frontmatter.image.childImageSharp.fluid}
       )
     }}
     />
+      </Col>
+      <Col md="4">
+<div style={{width: "100%",height: "100%", backgroundColor: "grey" }}>
+</div>
+      </Col>
+    </Row>
   </Layout>
 )
 
