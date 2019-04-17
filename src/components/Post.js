@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Card, CardTitle, CardText, CardSubtitle, CardBody} from "reactstrap"
+import { Card, CardTitle, CardText, CardSubtitle, CardBody, Badge } from "reactstrap"
 import Img from "gatsby-image"
-
-const Post = ({ title, author, path, date, body, fluid }) => {
+import { slugify } from "../util/utilityFunction.js"
+const Post = ({ title, author, path, date, body, fluid, tags }) => {
     return (
         <Card>
 <Link to={path}>
@@ -22,6 +22,15 @@ const Post = ({ title, author, path, date, body, fluid }) => {
                 <CardText>
                     {body}
                 </CardText>
+<ul className="post-tags">
+{tags.map(tag => (
+    <li>
+        <Link to={`/tag/${slugify(tag)}`}>
+        <Badge className="text-uppercase" color="primary">{tag}</Badge>
+        </Link>
+    </li>
+))}
+</ul>
                 <Link to={path} className="btn btn-outline-primary float-right">Read more</Link>
             </CardBody>
         </Card>
