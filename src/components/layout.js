@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import "../styles/index.scss"
 import Header from "./header"
 import "./layout.css"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -25,12 +26,14 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"></link>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div className="container" id="content">
           
         {children}
          
         </div>
+        <Footer/>
       </>
     )}
   />
