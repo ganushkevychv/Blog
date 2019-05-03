@@ -5,7 +5,7 @@
   text-align: center;
 
   .footer-social-links {
-    text-align: center;
+  text-align: center;
 
     ul.social-links-list {
       li {
@@ -15,15 +15,6 @@
         a {
           color: $dark-gray;
 
-          &.instagram:hover {
-            color: #e95950;
-          }
-          &.facebook:hover {
-            color:black;
-          }
-          &.twitter:hover {
-            color: rgb(56, 161, 243);
-          }
           &.google:hover {
             color: rgb(221, 75, 57);
           }
