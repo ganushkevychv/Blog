@@ -1,9 +1,9 @@
 import React from 'react'
 import Layout from '../components/layout.js'
-import Sidebar from '../components/Sidebar.js'
+//import Sidebar from '../components/Sidebar.js'
 import { graphql, Link } from 'gatsby';
 import SEO from '../components/seo.js'
-import { Row, Col, Card, CardBody, CardSubtitle, Badge } from 'reactstrap'
+import { Card, CardBody, CardSubtitle, Badge } from 'reactstrap'
 import Img from 'gatsby-image'
 import { slugify } from "../util/utilityFunction.js"
 
@@ -13,9 +13,6 @@ const post = data.markdownRemark.frontmatter
     return (
         <Layout>
 <SEO title={post.title}/>
-<h1>{post.title}</h1>
-<Row>
- <Col md="8">
  <Card>
 <Img className="card-image-top" fluid={post.image.childImageSharp.fluid}/>
 <CardBody>
@@ -35,12 +32,6 @@ const post = data.markdownRemark.frontmatter
     </ul>
 </CardBody>
  </Card>
- </Col> 
- <Col md="4">
- <Sidebar/>
- </Col>  
-
-</Row>
         </Layout>
     )
 }
