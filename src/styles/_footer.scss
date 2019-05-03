@@ -10,16 +10,16 @@
     ul.social-links-list {
       li {
         margin-right: 25px;
-        display: inline-block;
+        display:flex;
 
         a {
           color: $dark-gray;
 
           &.google:hover {
-            color: rgb(221, 75, 57);
+            color: red;
           }
           &.linkedin:hover {
-            color: rgb(0, 119, 181);
+            color:blue;
           }
         }
       }

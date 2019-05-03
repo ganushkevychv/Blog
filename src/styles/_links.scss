@@ -12,17 +12,14 @@
         &:hover {
           opacity: 1;
         }
-        &.facebook {
-          color: rgb(66, 103, 178);
-        }
-        &.twitter {
-          color: rgb(56, 161, 243);
-        }
         &.google {
-          color: rgb(221, 75, 57);
+          color:red;
         }
         &.linkedin {
-          color: rgb(0, 119, 181);
+          color: blue;
+          &.github {
+            color: black;
+          }
         }
       }
     }
