@@ -6,9 +6,8 @@ import Post from "../components/Post"
 //import Sidebar from "../components/Sidebar.js"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout pageTitle="BloGV">
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>BloGV</h1>
       <StaticQuery
      query={indexQuery} 
      render={data => {
