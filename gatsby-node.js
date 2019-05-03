@@ -1,5 +1,6 @@
 const { slugify } = require('./src/util/utilityFunction.js')
 const path = require('path')
+const authors = require('./src/util/authors.js')
 
 exports.onCreateNode = ({ node, actions }) => {
 const { createNodeField } = actions
@@ -41,8 +42,9 @@ posts.forEach(({node}) => {
         path: node.fields.slug,
         component: singlePostTemplate,
         context: {
-            slug: node.fields.slug
-        }
+            slug: node.fields.slug,
+            imageUrl: authors.find(x => x.name === node.frontmatter.author).imageUrl    
+        },   
     })
 })
     })

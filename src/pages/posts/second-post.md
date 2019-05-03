@@ -1,7 +1,7 @@
 ---
 title: "Second Post - ?????"
 date: "2019-04-15"
-author: "Vladyslav Ganushkevych"
+author: " Vladyslav Ganushkevych"
 image: ../../images/js.jpg
 tags:
 - code
