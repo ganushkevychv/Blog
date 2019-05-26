@@ -46,7 +46,7 @@ query BlogPostBySlug($slug: String!, $imageUrl: String!){
         frontmatter{
             title
             author
-            date(formatString: "MMM DD YYYY")
+            date(formatString: "MMM Do YYYY")
             tags
             image{
                 childImageSharp{
