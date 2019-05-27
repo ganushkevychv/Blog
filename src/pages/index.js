@@ -3,14 +3,19 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql, StaticQuery } from "gatsby"
 import Post from "../components/Post"
-//import Sidebar from "../components/Sidebar.js"
+import PaginationLinks from "../components/PaginationLinks.js"
 
-const IndexPage = () => (
+
+const IndexPage = () => {
+  const postsPerPage = 2;
+  let numberOfPages
+  return (
   <Layout pageTitle="BloGV">
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <StaticQuery
      query={indexQuery} 
      render={data => {
+       numberOfPages = Math.ceil(data.allMarkdownRemark.totalCount / postsPerPage)
       return (
 <div>
   {data.allMarkdownRemark.edges.map(({ node })=> (
@@ -25,18 +30,21 @@ fluid={node.frontmatter.image.childImageSharp.fluid}
 tags={node.frontmatter.tags}
 />
   ))}
+  <PaginationLinks currentPage={1} numberOfPages={numberOfPages}/>
 </div>
       )
     }}
     />
   </Layout>
-)
+  )
+}
 
 const indexQuery = graphql`
 query{
   allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC}
     limit: 2
     ) {
+    totalCount
     edges{
       node{
         id
