@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardTitle, CardBody, CardText, Form, FormGroup, Input } from "reactstrap";
+import { Card, CardTitle, CardBody, CardText} from "reactstrap";
 import { graphql, Link, StaticQuery } from "gatsby";
 import Img from "gatsby-image";
 const Sidebar = ({ author, authorFluid}) => {
@@ -23,18 +23,6 @@ const Sidebar = ({ author, authorFluid}) => {
             </Card>
         )
     }
-<Card>
-    <CardBody>
-<CardTitle className="text-center text-uppercase mb-3">
-Newsletter
-</CardTitle>
-<Form className="text-center">
-<FormGroup><Input type="email" name="email" placeholder="Your email address here"/>
-</FormGroup>
-<button className="btn btn-outline-success text-uppercase">Subscribe</button>
-</Form>
-    </CardBody>
-    </Card> 
     <Card>
         <CardBody>
             <CardTitle className="text-center text-uppercase">Advertisement</CardTitle>

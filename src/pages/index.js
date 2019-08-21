@@ -7,7 +7,7 @@ import PaginationLinks from "../components/PaginationLinks.js"
 
 
 const IndexPage = () => {
-  const postsPerPage = 2;
+  const postsPerPage = 3;
   let numberOfPages
   return (
   <Layout pageTitle="BloGV">
