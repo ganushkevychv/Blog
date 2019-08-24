@@ -3,16 +3,19 @@
   margin-top: 20px;
   padding: 10px;
   text-align: center;
+  
 
-  .footer-social-links {
+  .footer-social-link {
   text-align: center;
-
     ul.social-links-list {
+  display: inline-flex;
+  
+  
       li {
+        margin-left: 20px;
         margin-right: 25px;
-        display:flex;
-
-        a {
+        
+      a {
           color: $dark-gray;
 
           &.gmail:hover {

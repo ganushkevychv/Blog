@@ -10,10 +10,10 @@ return(
     <li><a href="https://github.com/ganushkevychv" target="_blank" rel="noopener noreferrer" className="github">
     <i className="fab fa-github fa-2x"/>
     </a></li>
-    <li><a href="www.linkedin.com/in/vladyslav-ganushkevych" target="_blank" rel="noopener noreferrer" className="github">
+    <li><a href="www.linkedin.com/in/vladyslav-ganushkevych" target="_blank" rel="noopener noreferrer" className="linkedin">
     <i className="fab fa-linkedin fa-2x"/>
     </a></li>
-    <li><a href="mailto:ganushkevychv@gmail.com" target="_blank" rel="noopener noreferrer" className="github">
+    <li><a href="mailto:ganushkevychv@gmail.com" target="_blank" rel="noopener noreferrer" className="gmail">
     <i className="fab fa-google fa-2x"/>
     </a></li>
     </ul>
