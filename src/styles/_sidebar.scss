@@ -9,16 +9,10 @@
         transition: all 0.1s ease-out;
         color: $dark-gray;
 
-        &.instagram:hover {
-          color: #e95950;
+        &.github:hover {
+          color: #000000;
         }
-        &.facebook:hover {
-          color: rgb(66, 103, 178);
-        }
-        &.twitter:hover {
-          color: rgb(56, 161, 243);
-        }
-        &.google:hover {
+        &.gmail:hover {
           color: rgb(221, 75, 57);
         }
         &.linkedin:hover {

@@ -15,14 +15,18 @@
         a {
           color: $dark-gray;
 
-          &.google:hover {
-            color: red;
+          &.gmail:hover {
+            color: rgb(221, 75, 57);
           }
           &.linkedin:hover {
-            color:blue;
+            color:rgb(0, 119, 181);
+          }
+          &.github:hover {
+              color: #000000;
+            }
           }
         }
       }
     }
   }
-}
+

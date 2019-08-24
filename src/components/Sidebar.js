@@ -2,6 +2,8 @@ import React from "react";
 import { Card, CardTitle, CardBody, CardText} from "reactstrap";
 import { graphql, Link, StaticQuery } from "gatsby";
 import Img from "gatsby-image";
+import hire from "../images/hire.jpg";
+
 const Sidebar = ({ author, authorFluid}) => {
     return(
 <div>
@@ -25,8 +27,8 @@ const Sidebar = ({ author, authorFluid}) => {
     }
     <Card>
         <CardBody>
-            <CardTitle className="text-center text-uppercase">Advertisement</CardTitle>
-            <img src="https://via.placeholder.com/320x200" alt="Advertisement" style={{width: "100%"}}/>
+            <CardTitle className="text-center text-uppercase">Hire me</CardTitle>
+            <img src={hire} alt="Hire ME" style={{width: "100%"}}/>
         </CardBody>
     </Card>
     <Card>
@@ -62,7 +64,7 @@ const Sidebar = ({ author, authorFluid}) => {
     query sidebarQuery {
         allMarkdownRemark (
             sort: {fields: [frontmatter___date], order: DESC}
-            limit: 3
+            limit: 2
         ){
             edges {
                 node{
