@@ -42,8 +42,6 @@ const AboutPage = () => (
           <br />
           Learned how to program in JavaScript and how to use it for dynamic web
           <br />
-          page elements and creating games and applications,
-          <br />
           Learned object-oriented programming elements and functions,
           <br />
           Learned how to communicate with the server using AJAX technology,
@@ -52,7 +50,17 @@ const AboutPage = () => (
           <br />
           Know the rules of communication with servers and databases REST API,
           <br />
-          Know the features of the React library when creating web applications
+          Know the features of the React library when create web applications
+          <br />
+          Understand the value of code reviews
+          <br />
+          Learned how to prepare friendly and useful interfaces
+          <br />
+          Learned the basics of code testing
+          <br />
+          Learned how to use libraries of ready-made components
+          <br />
+          Learned how routing works in the browser
         </div>
       </CardBody>
     </Card>

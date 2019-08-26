@@ -1,12 +1,12 @@
 .content {
 display: inline-flex;
-border-radius: 10px;
+border-radius: 0.25rem;
 background:  #007bff;
-text-align: center;
 font-weight: bold;
 color: white;
-padding: 10px;
-margin: 10px;
-width: 200px;
-box-sizing: border-box;
+padding: 5px; 
+}
+p {
+margin-bottom: 0;
+margin-top: 5px;
 }
