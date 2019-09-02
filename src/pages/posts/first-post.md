@@ -67,7 +67,7 @@ So this code is equivalent:
 ```
 var myName;
 console.log(myName);
-myName = "Maksim";
+myName = "Vlad";
 ```
 It’s important to note that only variable declaration is moved to the top, not value assignment.
 
