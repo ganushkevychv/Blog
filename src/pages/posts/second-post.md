@@ -17,6 +17,7 @@ Let’s talk about statements and expressions. It’s very important to understa
 
 When we write programs - we describe the sequences of actions that should be performed to get a desired result. In programming languages those actions are called statements. So every Javascript program basically consists of statements. In javascript statements are separated by semicolons. Important note: You can use just newlines and omit semicolons, because Javascipt puts semicolons in the end of lines automatically, but x this is not recommended. There are cases where it can lead to ambiguity. See the automatic semicolon insertion section of ECMAScript specification. All of those are statements:
 ```
+
 let declaredVariable; // variable declaration is a statement
 let otherVariable = 0; // even with assignment
 function functionCall() { // function declaration is a statement
