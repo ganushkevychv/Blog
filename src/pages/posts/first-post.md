@@ -74,7 +74,7 @@ It’s important to note that only variable declaration is moved to the top, not
 Ok, now you know about the scopes and hoisting, let’s move on.
 
 #Using let
-**let** is a block scoped version of **var**. That means that it’s visibility will be litimed to block, [statement](https://loving-jennings-947d6b.netlify.com/fourth-post) or [expression](https://loving-jennings-947d6b.netlify.com/fourth-post) where it was defined and all the inner blocks.
+**let** is a block scoped version of **var**. That means that it’s visibility will be litimed to block, [statement](https://loving-jennings-947d6b.netlify.com/second-post-statements-vs-expressions) or [expression](https://loving-jennings-947d6b.netlify.com/second-post-statements-vs-expressions) where it was defined and all the inner blocks.
 
 So if you declare a variable using let inside a **for** loop - it will be visible only inside this **for** loop block.
 ```
