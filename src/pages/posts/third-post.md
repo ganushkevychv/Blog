@@ -38,7 +38,7 @@ for (initialExpression; condition; incrementExpression)
 ```
 We have a keyword **for**, then in brackets we have **initialExpression**, **condition** and **incrementExpression**.
 
-Then goes the **statement**, or group of **statements** in curly brackets that will be executed on every iteration.
+Then goes the [statement](https://loving-jennings-947d6b.netlify.com/second-post-statements-vs-expressions), or group of **statements** in curly brackets that will be executed on every iteration.
 
 When a **for** loop executes, the following occurs:
 
@@ -50,7 +50,7 @@ In theory if you don’t need to initialize additional variables to use them in 
 
 You can omit the condition expression as well, then it will be **true** by default. But be careful with that, because then you’ll be locked in an infinite loop.
 
-3. The **statement** executes. To execute multiple statements wrap them in curly brackets.
+3. The [statement](https://loving-jennings-947d6b.netlify.com/second-post-statements-vs-expressions) executes. To execute multiple statements wrap them in curly brackets.
 
 If present, the update expression **incrementExpression** is executed. Control returns to step 2.
 
