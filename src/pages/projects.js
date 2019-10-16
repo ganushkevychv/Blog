@@ -78,6 +78,18 @@ const ProjectPage = () => (
                 />
               </a>
             </CardBody>
+            <CardBody>
+              <CardTitle className="text-center text-uppercase">
+                Simple FDP calculator
+              </CardTitle>
+              <a href="https://ganushkevychv.github.io/fdp/">
+                <img
+                  src={require("../images/aircraft.jpg")}
+                  alt="tracken"
+                  style={{ width: "50%" }}
+                />
+              </a>
+            </CardBody>
         </CardTitle>
         <CardText />
       </CardBody>
