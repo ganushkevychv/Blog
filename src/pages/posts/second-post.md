@@ -16,7 +16,7 @@ Let’s talk about statements and expressions. It’s very important to understa
 #Statements
 
 When we write programs - we describe the sequences of actions that should be performed to get a desired result. In programming languages those actions are called statements. So every Javascript program basically consists of statements. In javascript statements are separated by semicolons. Important note: You can use just newlines and omit semicolons, because Javascipt puts semicolons in the end of lines automatically, but x this is not recommended. There are cases where it can lead to ambiguity. See the automatic semicolon insertion section of ECMAScript specification. All of those are statements:
-```
+```javascript
 
 let declaredVariable; // variable declaration is a statement
 let otherVariable = 0; // even with assignment
@@ -31,7 +31,7 @@ As you can see statements just do things. They are kind of language phrases. The
 #Expressions
 
 Simply speaking an expression returns a value:
-```
+```javascript
 2+2
 true
 true && false
@@ -40,7 +40,7 @@ declaredVariable // whatever the variable value was
 declaredVariable = 'new value' // assignment is an expression
 ```
 Actually just **"foo"**, **{foo: 'bar'}**, **[1,2,3]**, or **42** are also expressions, they are called literals (string, object, array and number literal) because they just return their literal value. And even this small expressions can be statements on their own.
-```
+```javascript
 2;
 ```
 This is statement. It’s useless. It doesn’t help, but still. As you can see it consists from only one expression. Statements like this are called expression statements.
@@ -48,7 +48,7 @@ This is statement. It’s useless. It doesn’t help, but still. As you can see 
 #Conclusion
 
 Javascript program consists of statements. They are executed one by one, in the same order as they are written. Statements can contain other constructions like expressions, keywords, operators and other stuff. Expressions are parts of statements that return values. So expressions can be used whenever value is expected. Sometimes you can use expression-statements instead of usual statements, if-else is good example:
-```
+```javascript
 let foo;
 if (bar === 'bazz') {
   foo = bar;
@@ -57,7 +57,7 @@ if (bar === 'bazz') {
 }
 ```
 You can use this expression instead:
-```
+```javascript
 let foo = bar === 'bazz' ? bar : null
 ```
 That’s it, it was short, but I hope it helped to structurize the knowledge.

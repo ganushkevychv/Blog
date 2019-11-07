@@ -24,7 +24,7 @@ Now let’s figure out how it all works.
 
 #Using var
 In Javascript **var** declares new variable:
-```
+```javascript
 var someVariable;
 
 console.log(someVariable)
@@ -33,7 +33,7 @@ console.log(someVariable)
 Initially it’s value will be undefined.
 
 After you’ve declared new variable you can assign it new value.
-```
+```javascript
 var someVariable;
 someVariable = 1;
 
@@ -41,7 +41,7 @@ console.log(someVariable);
 // 1
 ```
 You can also combine those two steps and assign variable it’s initial value while declaring it:
-```
+```javascript
 var someVariable = 1;
 
 console.log(someVariable);
@@ -56,7 +56,7 @@ Otherwise if you declare variable outside of any function - it will have global 
 Another important thing about **var** in Javascript is that you can access it before it is declared. It is possible because of the process called hoisting.
 
 That means that variable declarations are moved to the top of their scope when Javascript is being executed.
-```
+```javascript
 console.log(myName);
 // undefined
 var myName = "Vlad";
@@ -64,7 +64,7 @@ var myName = "Vlad";
 In this example console.log will output undefined. It happened because the declaration of myName was moved to the top.
 
 So this code is equivalent:
-```
+```javascript
 var myName;
 console.log(myName);
 myName = "Vlad";
@@ -77,7 +77,7 @@ Ok, now you know about the scopes and hoisting, let’s move on.
 **let** is a block scoped version of **var**. That means that it’s visibility will be litimed to block, [statement](https://loving-jennings-947d6b.netlify.com/second-post-statements-vs-expressions) or [expression](https://loving-jennings-947d6b.netlify.com/second-post-statements-vs-expressions) where it was defined and all the inner blocks.
 
 So if you declare a variable using let inside a **for** loop - it will be visible only inside this **for** loop block.
-```
+```javascript
 for(let i = 0; i < 100; i++){
     console.log(i)
     // Here it will output all numbers from 0 to 99 
@@ -87,7 +87,7 @@ console.log(i)
 // Here you'll get "ReferenceError: i is not defined"
 ```
 Contrary to that **var** would be visible outside as well:
-```
+```javascript
 for(var i = 0; i < 100; i++){
     console.log(i)
     // Here it will output all numbers from 0 to 99 
@@ -101,7 +101,7 @@ And I think it’s more desirable behavior. I can’t really think of an example
 In fact I think that the behavior of **var** in this case is even more bug prone. Because it allows the unwanted use of previously defined variables and can lead to confusion.
 
 Also variables declared with **let** don’t get **hoisted**.
-```
+```javascript
 console.log(myName);
 // Here you'll get "ReferenceError: can't access lexical declaration `myName' before initialization"
 let myName = "Vlad";
@@ -114,7 +114,7 @@ So in modern environments **let** seems to be a better, more controlled alternat
 **const** has the same differences from **var** as **let** does, and on top of that, after it’s value is defined - it can’t be re-assigned.
 
 It’s important to note that value still can be changed:
-```
+```javascript
 const dragon = {name: "Ancalagon the Black"}
 dragon.name = "Glaurung" // This is valid
 

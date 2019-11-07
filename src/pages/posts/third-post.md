@@ -13,7 +13,7 @@ tags:
 Sometimes you need to do some action repeatedly.
 
 For example here, for whatever reason I want to output “Hello loops” five times.
-```
+```javascript
 console.log("Hello loops");
 console.log("Hello loops");
 console.log("Hello loops");
@@ -32,7 +32,7 @@ There are several different ways to implement loops in Javascript.
 - Today we’ll learn how to use the most basic one, the for statement.
 
 **for** loop statement has the following signature:
-```
+```javascript
 for (initialExpression; condition; incrementExpression)
   statement
 ```
@@ -57,7 +57,7 @@ If present, the update expression **incrementExpression** is executed. Control r
 ##Now let’s try a real example.
 
 Let’s say we want to output “Hello loops” again, but now using the **for** loop.
-```
+```javascript
 for(let i = 0; i < 10; i++){
   console.log('Hello loops', i)
 }
@@ -69,13 +69,13 @@ Currently it checks that **i** is less than 10. **i** equals 0, it’s less than
 Then **i** get’s incremented by 1, and we continue from the condition part.
 
 Now theoretically you could just return **false** from the condition, so it will never be execetud.
-```
+```javascript
 for(let i = 0; false; i++){
   console.log('Hello loops', i)
 }
 ```
 Why would you do that? I don’t know but it’s possible.
-```
+```javascript
 for(let i = 0; false; i++){
   console.log('Hello loops', i)
 }
@@ -83,7 +83,7 @@ for(let i = 0; false; i++){
 You can also omit any part of the **for** staement. Or even all of them alltogether.
 
 Try guessing what will happen in this case?
-```
+```javascript
 for(; ; ){
   console.log('Hello loops')
 }
