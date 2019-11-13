@@ -82,7 +82,7 @@ const ProjectPage = () => (
               <CardTitle className="text-center text-uppercase">
                 Simple FDP calculator
               </CardTitle>
-              <a href="https://ganushkevychv.github.io/fdp/">
+              <a href="https://cocky-jackson-cf646d.netlify.com/">
                 <img
                   src={require("../images/aircraft.jpg")}
                   alt="tracken"
