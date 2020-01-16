@@ -90,6 +90,30 @@ const ProjectPage = () => (
                 />
               </a>
             </CardBody>
+            <CardBody>
+              <CardTitle className="text-center text-uppercase">
+                Landing Page created with Gatsby
+              </CardTitle>
+              <a href="https://syndicate-trade.netlify.com/">
+                <img
+                  src={require("../images/syndicate.jpg")}
+                  alt="syndicate"
+                  style={{ width: "50%" }}
+                />
+              </a>
+            </CardBody>
+            <CardBody>
+              <CardTitle className="text-center text-uppercase">
+                FTL and CC dictionary
+              </CardTitle>
+              <a href="https://wonderful-elion-130752.netlify.com">
+                <img
+                  src={require("../images/iata.jpg")}
+                  alt="dictionary"
+                  style={{ width: "50%" }}
+                />
+              </a>
+            </CardBody>
         </CardTitle>
         <CardText />
       </CardBody>
