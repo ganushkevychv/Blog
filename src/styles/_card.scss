@@ -21,3 +21,9 @@ ul.project-badge {
     margin-right: 10px;
   }
 }
+[data-aos] {
+  visibility: visible;
+}
+[data-aos].animated {
+  visibility: visible;
+}

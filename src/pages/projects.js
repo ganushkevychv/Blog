@@ -2,7 +2,10 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Card, CardTitle, CardBody, CardText, Badge } from "reactstrap"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+AOS.init();
 
 
 
@@ -11,12 +14,12 @@ const ProjectPage = () => (
   <Layout pageTitle="Projects">
     <SEO title="Projects" keywords={[`gatsby`, `application`, `react`]} />
     <Card>
-      <div className="container">
+      <div className="container" data-aos="fade-in">
       <CardBody>
         <CardTitle className="text-center text-uppercase">
           Projects
           
-            <CardBody>
+            <CardBody data-aos="fade-up">
               <CardTitle className="text-center text-uppercase">
                 tracken web page
               </CardTitle>
@@ -59,7 +62,7 @@ const ProjectPage = () => (
             </CardBody>
         
           
-            <CardBody>
+            <CardBody data-aos="fade-up">
               <CardTitle className="text-center text-uppercase">
                 tracken web app
               </CardTitle>
@@ -83,7 +86,7 @@ const ProjectPage = () => (
             </CardBody>
          
         
-            <CardBody>
+            <CardBody data-aos="fade-up">
               <CardTitle className="text-center text-uppercase">
                 maze web game
               </CardTitle>
@@ -102,7 +105,8 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-            <CardBody>
+
+            <CardBody data-aos="fade-up">
               <CardTitle className="text-center text-uppercase">
                 my old portfolio
               </CardTitle>
@@ -117,11 +121,12 @@ const ProjectPage = () => (
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
               <li><Badge color="primary">CSS</Badge></li>
-              <li><Badge color="primary">javascript</Badge></li>
+              <li><Badge color="primary">JS</Badge></li>
               </ul>
               </CardText>
             </CardBody>
-            <CardBody>
+
+            <CardBody data-aos="fade-up">
               <CardTitle className="text-center text-uppercase">
                 Simple FDP calculator
               </CardTitle>
@@ -136,13 +141,14 @@ const ProjectPage = () => (
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
               <li><Badge color="primary">CSS</Badge></li>
-              <li><Badge color="primary">javascript</Badge></li>
+              <li><Badge color="primary">JS</Badge></li>
               <li><Badge color="primary">momentjs</Badge></li>
               <li><Badge color="primary">pwa</Badge></li>
               </ul>
               </CardText>
             </CardBody>
-            <CardBody>
+
+            <CardBody data-aos="fade-up">
               <CardTitle className="text-center text-uppercase">
                 Landing Page created with Gatsby
               </CardTitle>
@@ -163,7 +169,7 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-            <CardBody>
+            <CardBody data-aos="fade-up">
               <CardTitle className="text-center text-uppercase">
                 FTL and CC dictionary
               </CardTitle>
@@ -178,7 +184,7 @@ const ProjectPage = () => (
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
               <li><Badge color="primary">CSS</Badge></li>
-              <li><Badge color="primary">javascript</Badge></li>
+              <li><Badge color="primary">js</Badge></li>
               <li><Badge color="primary">momentjs</Badge></li>
               <li><Badge color="primary">pdfjs</Badge></li>
               <li><Badge color="primary">pwa</Badge></li>
