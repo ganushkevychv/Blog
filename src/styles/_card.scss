@@ -10,3 +10,12 @@ ul.post-tags {
     margin-right: 10px;
   }
 }
+ul.project-badge {
+  padding: 0;
+  display: inline-flex;
+  list-style: none;
+
+  li {
+    margin-right: 10px;
+  }
+}

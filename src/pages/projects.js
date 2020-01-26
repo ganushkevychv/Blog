@@ -1,9 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Card, CardTitle, CardBody, CardText } from "reactstrap"
+import { Card, CardTitle, CardBody, CardText, Badge } from "reactstrap"
+
+
+
 
 const ProjectPage = () => (
+  
   <Layout pageTitle="Projects">
     <SEO title="Projects" keywords={[`gatsby`, `application`, `react`]} />
     <Card>
@@ -20,9 +24,16 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/tracken.png")}
                   alt="tracken"
-                  style={{ width: "50%" }}
+                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
+              <CardText className="text-center text-uppercase">
+              <ul className="project-badge">
+              <li><Badge color="primary">html</Badge></li>
+              <li><Badge color="primary">CSS</Badge></li>
+              <li><Badge color="primary">JS</Badge></li>
+              </ul>
+              </CardText>
             </CardBody>
           
   
@@ -34,9 +45,17 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/game.png")}
                   alt="tracken"
-                  style={{ width: "50%" }}
+                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
+              <CardText className="text-center text-uppercase">
+              <ul className="project-badge">
+              <li><Badge color="primary">html</Badge></li>
+              <li><Badge color="primary">CSS</Badge></li>
+              <li><Badge color="primary">JS</Badge></li>
+              <li><Badge color="primary">firebase</Badge></li>
+              </ul>
+              </CardText>
             </CardBody>
         
           
@@ -48,9 +67,19 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/tracken.png")}
                   alt="tracken"
-                  style={{ width: "50%" }}
+                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
+              <CardText className="text-center text-uppercase">
+              <ul className="project-badge">
+              <li><Badge color="primary">React</Badge></li>
+              <li><Badge color="primary">jsx</Badge></li>
+              <li><Badge color="primary">firebase</Badge></li>
+              <li><Badge color="primary">semantic ui</Badge></li>
+              <li><Badge color="primary">react-moment</Badge></li>
+              <li><Badge color="primary">react-leaflet</Badge></li>
+              </ul>
+              </CardText>
             </CardBody>
          
         
@@ -62,9 +91,16 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/maze.png")}
                   alt="tracken"
-                  style={{ width: "50%" }}
+                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
+              <CardText className="text-center text-uppercase">
+              <ul className="project-badge">
+              <li><Badge color="primary">html</Badge></li>
+              <li><Badge color="primary">CSS</Badge></li>
+              <li><Badge color="primary">JS</Badge></li>
+              </ul>
+              </CardText>
             </CardBody>
             <CardBody>
               <CardTitle className="text-center text-uppercase">
@@ -74,9 +110,16 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/me.png")}
                   alt="tracken"
-                  style={{ width: "50%" }}
+                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
+              <CardText className="text-center text-uppercase">
+              <ul className="project-badge">
+              <li><Badge color="primary">html</Badge></li>
+              <li><Badge color="primary">CSS</Badge></li>
+              <li><Badge color="primary">JS</Badge></li>
+              </ul>
+              </CardText>
             </CardBody>
             <CardBody>
               <CardTitle className="text-center text-uppercase">
@@ -86,9 +129,18 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/aircraft.jpg")}
                   alt="tracken"
-                  style={{ width: "50%" }}
+                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
+              <CardText className="text-center text-uppercase">
+              <ul className="project-badge">
+              <li><Badge color="primary">html</Badge></li>
+              <li><Badge color="primary">CSS</Badge></li>
+              <li><Badge color="primary">JS</Badge></li>
+              <li><Badge color="primary">momentjs</Badge></li>
+              <li><Badge color="primary">pwa</Badge></li>
+              </ul>
+              </CardText>
             </CardBody>
             <CardBody>
               <CardTitle className="text-center text-uppercase">
@@ -98,9 +150,18 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/syndicate.jpg")}
                   alt="syndicate"
-                  style={{ width: "50%" }}
+                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
+              <CardText className="text-center text-uppercase">
+              <ul className="project-badge">
+              <li><Badge color="primary">gatsby</Badge></li>
+              <li><Badge color="primary">scss</Badge></li>
+              <li><Badge color="primary">jsx</Badge></li>
+              <li><Badge color="primary">react-bootstrap</Badge></li>
+              <li><Badge color="primary">graphql</Badge></li>
+              </ul>
+              </CardText>
             </CardBody>
             <CardBody>
               <CardTitle className="text-center text-uppercase">
@@ -110,16 +171,26 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/iata.jpg")}
                   alt="dictionary"
-                  style={{ width: "50%" }}
+                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
+              <CardText className="text-center text-uppercase">
+              <ul className="project-badge">
+              <li><Badge color="primary">html</Badge></li>
+              <li><Badge color="primary">CSS</Badge></li>
+              <li><Badge color="primary">js</Badge></li>
+              <li><Badge color="primary">momentjs</Badge></li>
+              <li><Badge color="primary">pdfjs</Badge></li>
+              <li><Badge color="primary">pwa</Badge></li>
+              </ul>
+              </CardText>
             </CardBody>
         </CardTitle>
         <CardText />
       </CardBody>
       </div>
     </Card>
-  </Layout>
+</Layout>
 )
 
 export default ProjectPage
