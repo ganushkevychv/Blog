@@ -14,6 +14,8 @@ ul.project-badge {
   padding: 0;
   display: inline-flex;
   list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
 
   li {
     margin-right: 10px;

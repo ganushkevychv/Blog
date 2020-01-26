@@ -31,7 +31,7 @@ const ProjectPage = () => (
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
               <li><Badge color="primary">CSS</Badge></li>
-              <li><Badge color="primary">JS</Badge></li>
+              <li><Badge color="primary">javascript</Badge></li>
               </ul>
               </CardText>
             </CardBody>
@@ -52,7 +52,7 @@ const ProjectPage = () => (
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
               <li><Badge color="primary">CSS</Badge></li>
-              <li><Badge color="primary">JS</Badge></li>
+              <li><Badge color="primary">javascript</Badge></li>
               <li><Badge color="primary">firebase</Badge></li>
               </ul>
               </CardText>
@@ -98,7 +98,7 @@ const ProjectPage = () => (
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
               <li><Badge color="primary">CSS</Badge></li>
-              <li><Badge color="primary">JS</Badge></li>
+              <li><Badge color="primary">javascript</Badge></li>
               </ul>
               </CardText>
             </CardBody>
@@ -117,7 +117,7 @@ const ProjectPage = () => (
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
               <li><Badge color="primary">CSS</Badge></li>
-              <li><Badge color="primary">JS</Badge></li>
+              <li><Badge color="primary">javascript</Badge></li>
               </ul>
               </CardText>
             </CardBody>
@@ -136,7 +136,7 @@ const ProjectPage = () => (
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
               <li><Badge color="primary">CSS</Badge></li>
-              <li><Badge color="primary">JS</Badge></li>
+              <li><Badge color="primary">javascript</Badge></li>
               <li><Badge color="primary">momentjs</Badge></li>
               <li><Badge color="primary">pwa</Badge></li>
               </ul>
@@ -178,7 +178,7 @@ const ProjectPage = () => (
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
               <li><Badge color="primary">CSS</Badge></li>
-              <li><Badge color="primary">js</Badge></li>
+              <li><Badge color="primary">javascript</Badge></li>
               <li><Badge color="primary">momentjs</Badge></li>
               <li><Badge color="primary">pdfjs</Badge></li>
               <li><Badge color="primary">pwa</Badge></li>
