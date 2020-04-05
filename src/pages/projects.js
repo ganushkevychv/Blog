@@ -195,6 +195,10 @@ const ProjectPage = () => (
               <CardTitle className="text-center text-uppercase">
                 Waste segregation game
               </CardTitle>
+              <CardTitle className="text-center text-uppercase" color="primery">
+                Desctop only!
+              </CardTitle>
+              
               <a href="https://waste-segregation.netlify.com/">
                 <img
                   src={require("../images/recycle.png")}
