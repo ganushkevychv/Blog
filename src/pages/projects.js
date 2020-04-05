@@ -191,6 +191,25 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
+            <CardBody data-aos="fade-up">
+              <CardTitle className="text-center text-uppercase">
+                Waste segregation game
+              </CardTitle>
+              <a href="https://waste-segregation.netlify.com/">
+                <img
+                  src={require("../images/recycle.png")}
+                  alt="tracken"
+                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
+                />
+              </a>
+              <CardText className="text-center text-uppercase">
+              <ul className="project-badge">
+              <li><Badge color="primary">html</Badge></li>
+              <li><Badge color="primary">CSS</Badge></li>
+              <li><Badge color="primary">javascript</Badge></li>
+              </ul>
+              </CardText>
+            </CardBody>
         </CardTitle>
         <CardText />
       </CardBody>
