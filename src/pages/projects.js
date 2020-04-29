@@ -2,11 +2,9 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Card, CardTitle, CardBody, CardText, Badge } from "reactstrap"
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
-AOS.init();
-AOS.refresh();
+
+
 
 
 const ProjectPage = () => (
@@ -14,12 +12,12 @@ const ProjectPage = () => (
   <Layout pageTitle="Projects">
     <SEO title="Projects" keywords={[`gatsby`, `application`, `react`]} />
     <Card>
-      <div className="container" data-aos="fade-in">
+      <div className="container">
       <CardBody>
         <CardTitle className="text-center text-uppercase">
           Projects
           
-            <CardBody data-aos="fade-up">
+            <CardBody >
               <CardTitle className="text-center text-uppercase">
                 tracken web page
               </CardTitle>
@@ -65,7 +63,7 @@ const ProjectPage = () => (
             </CardBody>
         
           
-            <CardBody data-aos="fade-up">
+            <CardBody>
               <CardTitle className="text-center text-uppercase">
                 tracken web app
               </CardTitle>
@@ -89,7 +87,7 @@ const ProjectPage = () => (
             </CardBody>
          
         
-            <CardBody data-aos="fade-up">
+            <CardBody>
               <CardTitle className="text-center text-uppercase">
                 maze web game
               </CardTitle>
@@ -112,7 +110,7 @@ const ProjectPage = () => (
               </CardText>
             </CardBody>
 
-            <CardBody data-aos="fade-up">
+            <CardBody>
               <CardTitle className="text-center text-uppercase">
                 my old portfolio
               </CardTitle>
@@ -132,7 +130,7 @@ const ProjectPage = () => (
               </CardText>
             </CardBody>
 
-            <CardBody data-aos="fade-up">
+            <CardBody>
               <CardTitle className="text-center text-uppercase">
                 Simple FDP calculator
               </CardTitle>
@@ -154,7 +152,7 @@ const ProjectPage = () => (
               </CardText>
             </CardBody>
 
-            <CardBody data-aos="fade-up">
+            <CardBody>
               <CardTitle className="text-center text-uppercase">
                 Landing Page created with Gatsby
               </CardTitle>
@@ -175,7 +173,7 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-            <CardBody data-aos="fade-up">
+            <CardBody >
               <CardTitle className="text-center text-uppercase">
                 FTL and CC dictionary
               </CardTitle>
@@ -197,7 +195,7 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-            <CardBody data-aos="fade-up">
+            <CardBody>
               <CardTitle className="text-center text-uppercase">
                 Waste segregation game
               </CardTitle>
@@ -220,7 +218,7 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-            <CardBody data-aos="fade-up">
+            <CardBody>
               <CardTitle className="text-center text-uppercase">
               LANDING PAGE CREATED WITH GATSBY V1
               </CardTitle>
@@ -241,7 +239,7 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-            <CardBody data-aos="fade-up">
+            <CardBody>
               <CardTitle className="text-center text-uppercase">
               LANDING PAGE CREATED WITH GATSBY V2
               </CardTitle>
