@@ -255,7 +255,7 @@ const ProjectPage = () => (
               <li><Badge color="primary">gatsby</Badge></li>
               <li><Badge color="primary">scss</Badge></li>
               <li><Badge color="primary">jsx</Badge></li>
-              <li><Badge color="primary">react-bootstrap</Badge></li>
+              <li><Badge color="primary">material-ui</Badge></li>
               <li><Badge color="primary">graphql</Badge></li>
               </ul>
               </CardText>
