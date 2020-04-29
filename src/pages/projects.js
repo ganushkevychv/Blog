@@ -27,7 +27,7 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/tracken.png")}
                   alt="tracken"
-                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
+                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
               <CardText className="text-center text-uppercase">
@@ -44,11 +44,14 @@ const ProjectPage = () => (
               <CardTitle className="text-center text-uppercase">
                 tracken web game
               </CardTitle>
+              <CardTitle className="text-center text-uppercase" color="primery">
+                Desctop only!
+              </CardTitle>
               <a href="https://ganushkevychv.github.io/tracken/game/">
                 <img
                   src={require("../images/game.png")}
                   alt="tracken"
-                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
+                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
               <CardText className="text-center text-uppercase">
@@ -70,7 +73,7 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/tracken.png")}
                   alt="tracken"
-                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
+                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
               <CardText className="text-center text-uppercase">
@@ -90,11 +93,14 @@ const ProjectPage = () => (
               <CardTitle className="text-center text-uppercase">
                 maze web game
               </CardTitle>
+              <CardTitle className="text-center text-uppercase" color="primery">
+                Desctop only!
+              </CardTitle>
               <a href="https://ganushkevychv.github.io/maze-game/">
                 <img
                   src={require("../images/maze.png")}
                   alt="tracken"
-                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
+                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
               <CardText className="text-center text-uppercase">
@@ -114,7 +120,7 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/me.png")}
                   alt="tracken"
-                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
+                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
               <CardText className="text-center text-uppercase">
@@ -134,7 +140,7 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/aircraft.jpg")}
                   alt="tracken"
-                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
+                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
               <CardText className="text-center text-uppercase">
@@ -156,7 +162,7 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/syndicate.jpg")}
                   alt="syndicate"
-                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
+                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
               <CardText className="text-center text-uppercase">
@@ -177,7 +183,7 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/iata.jpg")}
                   alt="dictionary"
-                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
+                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
               <CardText className="text-center text-uppercase">
@@ -203,7 +209,7 @@ const ProjectPage = () => (
                 <img
                   src={require("../images/recycle.png")}
                   alt="tracken"
-                  style={{ width: "50%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
+                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
                 />
               </a>
               <CardText className="text-center text-uppercase">
@@ -211,6 +217,48 @@ const ProjectPage = () => (
               <li><Badge color="primary">html</Badge></li>
               <li><Badge color="primary">CSS</Badge></li>
               <li><Badge color="primary">javascript</Badge></li>
+              </ul>
+              </CardText>
+            </CardBody>
+            <CardBody data-aos="fade-up">
+              <CardTitle className="text-center text-uppercase">
+              LANDING PAGE CREATED WITH GATSBY V1
+              </CardTitle>
+              <a href="https://elisavetdorbud.netlify.app/">
+                <img
+                  src={require("../images/logoRoller.png")}
+                  alt="tracken"
+                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
+                />
+              </a>
+              <CardText className="text-center text-uppercase">
+              <ul className="project-badge">
+              <li><Badge color="primary">gatsby</Badge></li>
+              <li><Badge color="primary">scss</Badge></li>
+              <li><Badge color="primary">jsx</Badge></li>
+              <li><Badge color="primary">react-bootstrap</Badge></li>
+              <li><Badge color="primary">graphql</Badge></li>
+              </ul>
+              </CardText>
+            </CardBody>
+            <CardBody data-aos="fade-up">
+              <CardTitle className="text-center text-uppercase">
+              LANDING PAGE CREATED WITH GATSBY V2
+              </CardTitle>
+              <a href="https://boring-morse-691793.netlify.app/">
+                <img
+                  src={require("../images/logoRoller.png")}
+                  alt="tracken"
+                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
+                />
+              </a>
+              <CardText className="text-center text-uppercase">
+              <ul className="project-badge">
+              <li><Badge color="primary">gatsby</Badge></li>
+              <li><Badge color="primary">scss</Badge></li>
+              <li><Badge color="primary">jsx</Badge></li>
+              <li><Badge color="primary">react-bootstrap</Badge></li>
+              <li><Badge color="primary">graphql</Badge></li>
               </ul>
               </CardText>
             </CardBody>
