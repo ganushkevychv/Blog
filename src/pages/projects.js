@@ -222,7 +222,7 @@ const ProjectPage = () => (
               <CardTitle className="text-center text-uppercase">
               LANDING PAGE CREATED WITH GATSBY V1
               </CardTitle>
-              <a href="https://elisavetdorbud.netlify.app/">
+              <a href="https://elisavetdorbudv1.netlify.app/">
                 <img
                   src={require("../images/logoRoller.png")}
                   alt="tracken"
@@ -243,7 +243,7 @@ const ProjectPage = () => (
               <CardTitle className="text-center text-uppercase">
               LANDING PAGE CREATED WITH GATSBY V2
               </CardTitle>
-              <a href="https://boring-morse-691793.netlify.app/">
+              <a href="https://elisavetdorbud.netlify.app/">
                 <img
                   src={require("../images/logoRoller.png")}
                   alt="tracken"
