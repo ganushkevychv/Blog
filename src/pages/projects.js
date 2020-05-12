@@ -1,13 +1,15 @@
 import React from "react"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import BackgroundImage from 'gatsby-background-image'
 import { Card, CardTitle, CardBody, CardText, Badge } from "reactstrap"
 
 
 
 
 
-const ProjectPage = () => (
+const ProjectPage = (props) => (
   
   <Layout pageTitle="Projects">
     <SEO title="Projects" keywords={[`gatsby`, `application`, `react`]} />
@@ -16,18 +18,17 @@ const ProjectPage = () => (
       <CardBody>
         <CardTitle className="text-center text-uppercase">
           Projects
-          
-            <CardBody >
-              <CardTitle className="text-center text-uppercase">
+          <CardTitle className="text-center text-uppercase">
                 tracken web page
               </CardTitle>
-              <a href="https://ganushkevychv.github.io/tracken/">
-                <img
-                  src={require("../images/tracken.png")}
-                  alt="tracken"
-                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
-                />
-              </a>
+          <Card
+          style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
+          >
+          <a href="https://ganushkevychv.github.io/tracken/">
+            <BackgroundImage className="background" fluid={props.data.tracken.childImageSharp.fluid} >
+            </BackgroundImage>
+            
+            <CardBody >
               <CardText className="text-center text-uppercase">
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
@@ -36,22 +37,20 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-          
-  
-            <CardBody>
-              <CardTitle className="text-center text-uppercase">
+            </a>
+            </Card>
+            <CardTitle className="text-center text-uppercase">
                 tracken web game
               </CardTitle>
               <CardTitle className="text-center text-uppercase" color="primery">
                 Desctop only!
               </CardTitle>
-              <a href="https://ganushkevychv.github.io/tracken/game/">
-                <img
-                  src={require("../images/game.png")}
-                  alt="tracken"
-                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
-                />
-              </a>
+          <Card style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+          <a href="https://ganushkevychv.github.io/tracken/game/">
+            <BackgroundImage className="background" fluid={props.data.game.childImageSharp.fluid} >
+            </BackgroundImage>
+            
+            <CardBody >
               <CardText className="text-center text-uppercase">
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
@@ -61,19 +60,17 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-        
-          
-            <CardBody>
-              <CardTitle className="text-center text-uppercase">
+            </a>
+            </Card>
+            <CardTitle className="text-center text-uppercase">
                 tracken web app
               </CardTitle>
-              <a href="http://app.nan.jfdd11.is-academy.pl/">
-                <img
-                  src={require("../images/tracken.png")}
-                  alt="tracken"
-                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
-                />
-              </a>
+          <Card style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+          <a href="http://app.nan.jfdd11.is-academy.pl/">
+            <BackgroundImage className="background" fluid={props.data.tracken.childImageSharp.fluid} >
+            </BackgroundImage>
+            
+            <CardBody >
               <CardText className="text-center text-uppercase">
               <ul className="project-badge">
               <li><Badge color="primary">React</Badge></li>
@@ -85,22 +82,20 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-         
-        
-            <CardBody>
-              <CardTitle className="text-center text-uppercase">
-                maze web game
+            </a>
+            </Card>
+            <CardTitle className="text-center text-uppercase">
+            maze web game
               </CardTitle>
               <CardTitle className="text-center text-uppercase" color="primery">
                 Desctop only!
               </CardTitle>
-              <a href="https://ganushkevychv.github.io/maze-game/">
-                <img
-                  src={require("../images/maze.png")}
-                  alt="tracken"
-                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
-                />
-              </a>
+          <Card style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+          <a href="https://ganushkevychv.github.io/maze-game/">
+            <BackgroundImage className="background" fluid={props.data.maze.childImageSharp.fluid} >
+            </BackgroundImage>
+            
+            <CardBody >
               <CardText className="text-center text-uppercase">
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
@@ -109,38 +104,36 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-
-            <CardBody>
-              <CardTitle className="text-center text-uppercase">
-                my old portfolio
+            </a>
+            </Card>
+            <CardTitle className="text-center text-uppercase">
+            my old portfolio
               </CardTitle>
-              <a href="https://ganushkevychv.github.io/">
-                <img
-                  src={require("../images/me.png")}
-                  alt="tracken"
-                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
-                />
-              </a>
+          <Card style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+          <a href="https://ganushkevychv.github.io/">
+            <BackgroundImage className="background" fluid={props.data.me.childImageSharp.fluid} >
+            </BackgroundImage>
+            
+            <CardBody >
               <CardText className="text-center text-uppercase">
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
               <li><Badge color="primary">CSS</Badge></li>
-              <li><Badge color="primary">JS</Badge></li>
+              <li><Badge color="primary">javascript</Badge></li>
               </ul>
               </CardText>
             </CardBody>
-
-            <CardBody>
-              <CardTitle className="text-center text-uppercase">
-                Simple FDP calculator
+            </a>
+            </Card>
+            <CardTitle className="text-center text-uppercase">
+            Simple FDP calculator
               </CardTitle>
-              <a href="https://cocky-jackson-cf646d.netlify.com/">
-                <img
-                  src={require("../images/aircraft.jpg")}
-                  alt="tracken"
-                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
-                />
-              </a>
+          <Card style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+          <a href="https://cocky-jackson-cf646d.netlify.com/">
+            <BackgroundImage className="background" fluid={props.data.aircraft.childImageSharp.fluid} >
+            </BackgroundImage>
+            
+            <CardBody >
               <CardText className="text-center text-uppercase">
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
@@ -151,18 +144,17 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-
-            <CardBody>
-              <CardTitle className="text-center text-uppercase">
-                Landing Page created with Gatsby
+            </a>
+            </Card>
+            <CardTitle className="text-center text-uppercase">
+            Landing Page created with Gatsby
               </CardTitle>
-              <a href="https://syndicate-trade.netlify.com/">
-                <img
-                  src={require("../images/syndicate.jpg")}
-                  alt="syndicate"
-                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
-                />
-              </a>
+          <Card style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+          <a href="https://syndicate-trade.netlify.com/">
+            <BackgroundImage className="background" fluid={props.data.syndicate.childImageSharp.fluid} >
+            </BackgroundImage>
+            
+            <CardBody >
               <CardText className="text-center text-uppercase">
               <ul className="project-badge">
               <li><Badge color="primary">gatsby</Badge></li>
@@ -173,17 +165,17 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-            <CardBody >
-              <CardTitle className="text-center text-uppercase">
-                FTL and CC dictionary
+            </a>
+            </Card>
+            <CardTitle className="text-center text-uppercase">
+            FTL and CC dictionary
               </CardTitle>
-              <a href="https://wonderful-elion-130752.netlify.com">
-                <img
-                  src={require("../images/iata.jpg")}
-                  alt="dictionary"
-                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
-                />
-              </a>
+          <Card style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+          <a href="https://wonderful-elion-130752.netlify.com">
+            <BackgroundImage className="background" fluid={props.data.iata.childImageSharp.fluid} >
+            </BackgroundImage>
+            
+            <CardBody >
               <CardText className="text-center text-uppercase">
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
@@ -195,21 +187,20 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-            <CardBody>
-              <CardTitle className="text-center text-uppercase">
-                Waste segregation game
+            </a>
+            </Card>
+            <CardTitle className="text-center text-uppercase">
+            Waste segregation game
               </CardTitle>
               <CardTitle className="text-center text-uppercase" color="primery">
                 Desctop only!
               </CardTitle>
-              
-              <a href="https://waste-segregation.netlify.com/">
-                <img
-                  src={require("../images/recycle.png")}
-                  alt="tracken"
-                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
-                />
-              </a>
+          <Card style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+          <a href="https://waste-segregation.netlify.app">
+            <BackgroundImage className="background" fluid={props.data.recycle.childImageSharp.fluid} >
+            </BackgroundImage>
+            
+            <CardBody >
               <CardText className="text-center text-uppercase">
               <ul className="project-badge">
               <li><Badge color="primary">html</Badge></li>
@@ -218,17 +209,17 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-            <CardBody>
-              <CardTitle className="text-center text-uppercase">
-              LANDING PAGE CREATED WITH GATSBY V1
+            </a>
+            </Card>
+            <CardTitle className="text-center text-uppercase" color="primery">
+            LANDING PAGE CREATED WITH GATSBY V1
               </CardTitle>
-              <a href="https://elisavetdorbudv1.netlify.app/">
-                <img
-                  src={require("../images/logoRoller.png")}
-                  alt="tracken"
-                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
-                />
-              </a>
+          <Card style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+          <a href="https://elisavetdorbudv1.netlify.app/">
+            <BackgroundImage className="background" fluid={props.data.logoRollerv1.childImageSharp.fluid} >
+            </BackgroundImage>
+            
+            <CardBody >
               <CardText className="text-center text-uppercase">
               <ul className="project-badge">
               <li><Badge color="primary">gatsby</Badge></li>
@@ -239,27 +230,29 @@ const ProjectPage = () => (
               </ul>
               </CardText>
             </CardBody>
-            <CardBody>
-              <CardTitle className="text-center text-uppercase">
-              LANDING PAGE CREATED WITH GATSBY V2
+            </a>
+            </Card>
+            <CardTitle className="text-center text-uppercase" color="primery">
+            LANDING PAGE CREATED WITH GATSBY V2
               </CardTitle>
-              <a href="https://elisavetdorbud.netlify.app/">
-                <img
-                  src={require("../images/logoRoller.png")}
-                  alt="tracken"
-                  style={{ width: "30%", boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}
-                />
-              </a>
+          <Card style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+          <a href="https://elisavetdorbud.netlify.app/">
+            <BackgroundImage className="background" fluid={props.data.logoRollerv1.childImageSharp.fluid} >
+            </BackgroundImage>
+            
+            <CardBody >
               <CardText className="text-center text-uppercase">
               <ul className="project-badge">
               <li><Badge color="primary">gatsby</Badge></li>
               <li><Badge color="primary">scss</Badge></li>
               <li><Badge color="primary">jsx</Badge></li>
-              <li><Badge color="primary">material-ui</Badge></li>
+              <li><Badge color="primary">react-bootstrap</Badge></li>
               <li><Badge color="primary">graphql</Badge></li>
               </ul>
               </CardText>
             </CardBody>
+            </a>
+            </Card>
         </CardTitle>
         <CardText />
       </CardBody>
@@ -269,3 +262,71 @@ const ProjectPage = () => (
 )
 
 export default ProjectPage
+
+export const pageQuery = graphql`
+query {
+  tracken: file(relativePath: { eq: "tracken.png" }){
+    childImageSharp {
+      fluid(quality:100, maxWidth: 1900){
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  game: file(relativePath: { eq: "game.png" }){
+    childImageSharp {
+      fluid(quality:100, maxWidth: 1900){
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  maze: file(relativePath: { eq: "maze.png" }){
+    childImageSharp {
+      fluid(quality:100, maxWidth: 1900){
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  me: file(relativePath: { eq: "me.png" }){
+    childImageSharp {
+      fluid(quality:100, maxWidth: 1900){
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  aircraft: file(relativePath: { eq: "aircraft.png" }){
+    childImageSharp {
+      fluid(quality:100, maxWidth: 1900){
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  syndicate: file(relativePath: { eq: "syndicate.jpg" }){
+    childImageSharp {
+      fluid(quality:100, maxWidth: 1900){
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  iata: file(relativePath: { eq: "iata.jpg" }){
+    childImageSharp {
+      fluid(quality:100, maxWidth: 1900){
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  recycle: file(relativePath: { eq: "recycle.png" }){
+    childImageSharp {
+      fluid(quality:100, maxWidth: 1900){
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  logoRollerv1: file(relativePath: { eq: "logoRollerv1.png" }){
+    childImageSharp {
+      fluid(quality:100, maxWidth: 1900){
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+}
+`;
