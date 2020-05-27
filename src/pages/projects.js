@@ -253,6 +253,29 @@ const ProjectPage = (props) => (
             </CardBody>
             </a>
             </Card>
+            <CardTitle className="text-center text-uppercase" color="primery">
+            photographer portfolio not finished
+              </CardTitle>
+          <Card style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+          <a href="https://ganushkevycha.netlify.app/">
+            <BackgroundImage className="background" fluid={props.data.portfolioA.childImageSharp.fluid} >
+            </BackgroundImage>
+            
+            <CardBody >
+              <CardText className="text-center text-uppercase">
+              <ul className="project-badge">
+              <li><Badge color="primary">gatsby</Badge></li>
+              <li><Badge color="primary">scss</Badge></li>
+              <li><Badge color="primary">jsx</Badge></li>
+              <li><Badge color="primary">reactstrap</Badge></li>
+              <li><Badge color="primary">graphql</Badge></li>
+              <li><Badge color="primary">i18next</Badge></li>
+              <li><Badge color="primary">crisp</Badge></li>
+              </ul>
+              </CardText>
+            </CardBody>
+            </a>
+            </Card>
         </CardTitle>
         <CardText />
       </CardBody>
@@ -322,6 +345,13 @@ query {
     }
   }
   logoRollerv1: file(relativePath: { eq: "logoRollerv1.png" }){
+    childImageSharp {
+      fluid(quality:100, maxWidth: 1900){
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  portfolioA: file(relativePath: { eq: "portfolioA.png" }){
     childImageSharp {
       fluid(quality:100, maxWidth: 1900){
         ...GatsbyImageSharpFluid
