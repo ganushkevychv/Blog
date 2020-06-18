@@ -18,7 +18,6 @@ Welcome to my Portfolio
   <li><a href="https://elisavetdorbudv1.netlify.app/">Landing Page created with Gatsby v1</a></li>
   <li><a href="https://elisavetdorbud.netlify.app/">Landing Page created with Gatsby v2</a></li>
   <li><a href="https://ganushkevycha.netlify.app/">Photographer Portfolio</a> Page in progress</li>
-<<<<<<< HEAD
   <li><a href="https://romantic-johnson-a557e4.netlify.app">Windows XP Desctop clone</a> Page in progress, Just for Fun :smile:</li>
 </ul>
 
