@@ -1,10 +1,14 @@
-**Welcome to my Portfolio**
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<h1 align="center">
 
+</h1>
+<h2 align="center">
+  Projects
+</h2>
+<ul>
+  <li>Tracken Web Page<a href="https://www.gatsbyjs.org"></a></li>
+</ul>
 
-**Projects**
-
-* [Tracken Web Page](https://ganushkevychv.github.io/tracken/)
-* [Tracken Web Game](https://ganushkevychv.github.io/tracken/game/) Desctop only!
-
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 
