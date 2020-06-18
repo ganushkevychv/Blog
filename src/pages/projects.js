@@ -278,7 +278,7 @@ const ProjectPage = (props) => (
             </a>
             </Card>
             <CardTitle className="text-center text-uppercase" color="primery">
-            Windows XP Desctop clone, just for fun
+            Windows XP Desctop clone<br/>just for fun
               </CardTitle>
           <Card style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
           <a href="https://romantic-johnson-a557e4.netlify.app/">
