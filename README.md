@@ -23,11 +23,4 @@ Welcome to my Portfolio
 </ul>
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-=======
-  <li><a href="https://romantic-johnson-a557e4.netlify.app">Windows XP Desctop clone</a> Just for Fun :smile:</li>
-</ul>
 
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-
->>>>>>> 5218abc5051b1cb4b81758e89340a63f42a7eee9
