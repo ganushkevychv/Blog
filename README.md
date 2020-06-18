@@ -1,10 +1,10 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  Welcome to my Portfolio
-</p>
 <h1 align="center">
-Projects
+  Welcome to my Portfolio
 </h1>
+<h2 align="center">
+Projects
+</h2>
 
 
 
