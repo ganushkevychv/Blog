@@ -6,7 +6,7 @@
   Projects
 </h2>
 <ul>
-  <li>Tracken Web Page<a href="https://www.gatsbyjs.org"></a></li>
+  <li><a href="https://www.gatsbyjs.org">Tracken Web Page</a></li>
 </ul>
 
 <!-- AUTO-GENERATED-CONTENT:END -->
