@@ -12,7 +12,7 @@ Welcome to my Portfolio
   <li><a href="https://ganushkevychv.github.io/maze-game/">Maze Game</a></li>
   <li><a href="https://ganushkevychv.github.io/">My Old Portfolio</a></li>
   <li><a href="https://cocky-jackson-cf646d.netlify.com/">Simple FDP Calculator</a></li>
-  <li>in progress<a href="https://syndicate-trade.netlify.com/">Landing Page created with Gatsby</a></li>
+  <li>Page in progress <a href="https://syndicate-trade.netlify.com/">Landing Page created with Gatsby</a></li>
   <li><a href="https://www.gatsbyjs.org">Tracken Web Page</a></li>
   <li><a href="https://www.gatsbyjs.org">Tracken Web Page</a></li>
 </ul>
