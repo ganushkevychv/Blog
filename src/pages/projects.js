@@ -271,6 +271,7 @@ const ProjectPage = (props) => (
               <li><Badge color="primary">graphql</Badge></li>
               <li><Badge color="primary">i18next</Badge></li>
               <li><Badge color="primary">crisp</Badge></li>
+              <li><Badge color="primary">netlify-form</Badge></li>
               </ul>
               </CardText>
             </CardBody>
