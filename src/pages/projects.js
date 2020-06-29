@@ -299,6 +299,27 @@ const ProjectPage = (props) => (
             </CardBody>
             </a>
             </Card>
+            <CardTitle className="text-center text-uppercase" color="primery">
+            Password Generator
+              </CardTitle>
+          <Card style={{ boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+          <a href="https://generatorpassword.netlify.app/">
+            <BackgroundImage className="background" fluid={props.data.password.childImageSharp.fluid} >
+            </BackgroundImage>
+            
+            <CardBody >
+              <CardText className="text-center text-uppercase">
+              <ul className="project-badge">
+              <li><Badge color="primary">gatsby</Badge></li>
+              <li><Badge color="primary">css</Badge></li>
+              <li><Badge color="primary">js</Badge></li>
+              <li><Badge color="primary">reactstrap</Badge></li>
+              <li><Badge color="primary">pwa</Badge></li>
+              </ul>
+              </CardText>
+            </CardBody>
+            </a>
+            </Card>
         </CardTitle>
         <CardText />
       </CardBody>
@@ -382,6 +403,13 @@ query {
     }
   }
   xp: file(relativePath: { eq: "xp.png" }){
+    childImageSharp {
+      fluid(quality:100, maxWidth: 1900){
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  password: file(relativePath: { eq: "password.png" }){
     childImageSharp {
       fluid(quality:100, maxWidth: 1900){
         ...GatsbyImageSharpFluid
